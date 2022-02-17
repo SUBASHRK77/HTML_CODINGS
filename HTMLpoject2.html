@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Htmlproject2</title>
+</head>
+<body>
+    <fieldset>
+        <center>
+        <h1>Client Details </h1>
+        <h3>Enter the details of all incoming clients.</h3>
+    </center>
+    </fieldset>
+    <div>    
+        <form>
+        <fieldset>
+            <legend><h2>Customer Details</h2></legend>
+            <label>Client Name*:</label>
+            <input type="text" name="cname" required><br><br>
+
+            <label>Company:</label>
+            <input type="text" name="coname" required><br><br>
+
+            <label>Title</label>
+            <input type="text" name="tname" required><br><br>
+
+            <label>Department*:</label>
+            <input type="text" list="dept" placeholder="-Select-" name="dept" required>
+                <datalist id="dept">
+                    <option value="Tata">
+                    <option value="Mcdonalds">
+                    <option value="kFC">
+                    <option value="TMT steels">
+                    <option value="gaana">
+                </datalist>
+            <br><br>
+
+            <label>Prefered Contact method*:</label>
+            <input type="radio" name="pcmethod" value="Email">
+            <input type="radio" name="pc1method" value="Phone"><br><br>
+            
+
+            <label>Email:</label>
+            <input type="text" name="email"><br><br>
+
+            <label>Mobile Number:</label>
+            <input type="text" name="Phone"><br><br>
+
+            <label>Company Address*:</label>
+
+            <input type="text" name="address">
+            <label>Street address</label><br>
+            
+            <input type="text" name="stad">
+            <label> Address line2</label><br>
+            
+            <input type="text" name="City">
+            <label>City</label><br>
+            <input type="text" name="state">
+            <label>state/region/provience</label><br>
+            <input type="text" name="postcode">
+            <label>postal zipcode</label><br>
+            <input type="text" name="country" list="country">
+            <datalist id="country">
+                <option value="India">
+                <option value="US">
+                <option value="UK">
+                <option value="China">
+                <option value="Japan">
+                <option value="Dubai">
+            </datalist>
+            <label>country</label>
+            
+            <br><br>
+
+            <label>Company Website*:</label>
+            <input type="text" name="cwebname" required><br><br>
+
+            <label>Company logo*:</label>
+            <input type="file" name="clogo"><br><br>
+
+            <label>Working hours*:</label>
+            <input type="text" name="whours" required><br><br>
+            
+            <label>Working Days*:</label>            
+            <input type="text" name="wdays" required><br><br>
+            
+            <label>Billing Cycle*:</label>
+            <input type="text" name="Bcycle"><br><br>
+
+            <label>Additional Information:</label>
+            <textarea></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        
+        </fieldset>
+
+        </form>
+    </div>
+      
+    
+</body>
+</html>
